@@ -260,6 +260,42 @@ Customer prioritization enables targeted retention investments and better ROI.
 
 ---
 
+# 🎯 Business Recommendations
+
+Based on the analysis, the following actions are recommended:
+
+### 1️⃣ Increase Migration to Long-Term Contracts
+
+Introduce contract upgrade incentives, loyalty rewards, and pricing benefits to encourage customers to move from month-to-month plans to one-year or two-year contracts.
+
+**Expected Impact:** Reduced churn and lower revenue leakage.
+
+---
+
+### 2️⃣ Strengthen First-Year Customer Retention
+
+Implement onboarding campaigns, customer engagement programs, and proactive customer success initiatives during the first 12 months of the customer lifecycle.
+
+**Expected Impact:** Improved retention among the highest-risk tenure segment.
+
+---
+
+### 3️⃣ Protect Critical Retention Priority Customers
+
+Launch targeted retention programs for Critical Retention Priority customers through personalized offers, service outreach, and proactive account management.
+
+**Expected Impact:** Preservation of high-value revenue and reduction in strategic churn risk.
+
+---
+
+### 4️⃣ Focus Retention Investments Where Revenue Risk Is Highest
+
+Prioritize retention budgets toward customer segments contributing the largest revenue leakage rather than applying broad retention campaigns across all customers.
+
+**Expected Impact:** Improved retention ROI and profitability.
+
+---
+
 # 📈 Expected Business Outcomes
 
 ### ↓ Customer Churn
