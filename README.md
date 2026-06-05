@@ -1,248 +1,328 @@
-# 📊 IBM Telco Customer Churn & Revenue Intelligence Analysis
+# 📊 IBM Telco Customer Churn & Revenue Intelligence Analytics
 
-![SQL](https://img.shields.io/badge/SQL-Analysis-blue)
-![Python](https://img.shields.io/badge/Python-EDA-green)
-![Excel](https://img.shields.io/badge/Excel-Dashboard-darkgreen)
-![PowerBI](https://img.shields.io/badge/PowerBI-Visualization-yellow)
-![DAX](https://img.shields.io/badge/DAX-Measures-orange)
+## 🚀 Project Overview
 
----
+This project analyzes customer churn behavior, revenue leakage patterns, customer lifetime value, and retention opportunities using the IBM Telco Customer Churn dataset.
 
-## 🎯 Project Overview
+The objective was to identify:
 
-This project analyzes customer churn behavior, customer lifetime value (LTV), revenue leakage, retention priorities, and strategic customer segments using the IBM Telco Customer Churn dataset.
+- Why customers leave
+- Which customer groups are most at risk
+- Revenue being lost due to churn
+- Customer segments requiring strategic intervention
+- Actions that can improve retention and long-term profitability
 
-The objective was to identify key churn drivers, quantify revenue impact, segment customers based on business value, and develop actionable retention strategies to improve customer retention and profitability.
+The project was completed using:
 
----
+✅ SQL  
+✅ Python  
+✅ Excel  
+✅ Power BI  
 
-## 💼 Business Problem
-
-Customer churn is one of the most significant challenges for telecom companies, directly impacting recurring revenue and long-term profitability.
-
-Telecom organizations need to understand:
-
-- Why customers churn
-- Which customer groups drive revenue loss
-- How retention efforts should be prioritized
-- Which segments provide the greatest business value
+and concludes with executive-level strategic recommendations.
 
 ---
 
-## ❓ Business Questions Answered
+# 🎯 Business Problem
 
-This analysis was designed to answer:
+Customer churn directly impacts profitability and long-term growth.
 
-- Which customers are most likely to churn?
-- What customer segments drive revenue leakage?
-- How does customer tenure impact retention?
-- Which customers should be prioritized for retention investments?
-- How can customer lifetime value be protected?
-- What actions can reduce churn and improve profitability?
+The company wants to understand:
 
----
-
-## 📌 Key Results
-
-| KPI | Value |
-|------|------|
-| Total Customers | 7,043 |
-| Churn Rate | 26.54% |
-| Retention Rate | 73.46% |
-| Avg Monthly Revenue | ₹65 |
-| Avg Customer LTV | ₹2.28K |
-| Revenue Leakage | ₹139K |
-| High-Risk Customers | 1,127 |
-| High-Value Customers | 2,649 |
+- Which customers are most likely to churn
+- Which customer segments generate the highest revenue
+- Where revenue leakage is occurring
+- Which retention strategies should be prioritized
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|--------|---------|
-| SQL | Data Exploration & Business Analysis |
-| Python | EDA & Customer Analytics |
-| Excel | Executive Reporting & Dashboards |
-| Power BI | Interactive Dashboard Development |
-| DAX | KPI & Business Measure Creation |
+|--------|----------|
+| SQL | Data exploration & business analysis |
+| Python | EDA, churn analysis, revenue analysis |
+| Excel | Business reporting & dashboarding |
+| Power BI | Executive dashboards & storytelling |
+| GitHub | Portfolio documentation |
 
 ---
 
-## 🔄 Analytics Workflow
+# 🗄️ SQL Analysis
 
-```text
-Raw Data
-    ↓
-SQL Analysis
-    ↓
-Python EDA & Insights
-    ↓
-Excel Business Reporting
-    ↓
-Power BI Dashboarding
-    ↓
-Strategic Recommendations
-```
+Business-focused SQL analysis was performed to answer critical questions around:
 
----
+### Customer Churn
 
-## 📂 Repository Structure
+- Churn by contract type
+- Churn by tenure segment
+- Churn by customer risk profile
+- Churn by service usage
 
-```text
-Telco-Customer-Churn-Revenue-Intelligence
-│
-├── Data
-│
-├── SQL
-│
-├── Python
-│
-├── Power BI
-│
-├── Dashboard Screenshots
-│
-└── README.md
-```
+### Revenue Intelligence
+
+- Revenue leakage analysis
+- High-value customer identification
+- Customer Lifetime Value analysis
+- Revenue contribution by segment
+
+### Customer Segmentation
+
+- Customer Risk Profiling
+- Customer Value Segmentation
+- Retention Priority Segmentation
 
 ---
 
-## 📊 Power BI Dashboard Pages
+# 🐍 Python Analytics
 
-### 1️⃣ Executive Overview
-Executive-level KPI tracking, churn overview, revenue leakage monitoring, and customer risk distribution.
+Advanced customer analytics performed using:
 
-### 2️⃣ Retention Intelligence
-Customer risk profiling, retention analysis, customer value segmentation, and churn driver identification.
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-### 3️⃣ Revenue & Customer Value
-Revenue leakage analysis, customer lifetime value evaluation, and customer value segmentation.
+### Key Analyses
 
-### 4️⃣ Strategic Retention Segments
-Customer prioritization framework combining churn risk, customer value, and retention opportunity.
+📈 Churn Analysis
 
-### 5️⃣ Strategic Recommendations
-Executive action plan containing strategic business recommendations and expected outcomes.
+📈 Revenue Leakage Analysis
+
+📈 Customer Lifetime Value Analysis
+
+📈 Customer Risk Segmentation
+
+📈 Customer Value Segmentation
+
+📈 Retention Priority Analysis
 
 ---
 
-# 📸 Dashboard Showcase
+# 📈 Excel Dashboard Suite
 
-## 1️⃣ Executive Overview
+A complete Excel-based business reporting solution was created to support executive decision-making.
+
+### Excel Features Used
+
+- Pivot Tables
+- Pivot Charts
+- KPI Cards
+- Customer Segmentation
+- Revenue Analysis
+- Churn Analysis
+- Lifecycle Analysis
+- Interactive Reporting
+
+---
+
+## 📊 Executive Dashboard
+
+![Executive Dashboard](Excel%20Analysis/Dashboard%20Screenshots/Executive%20Dashboard.png)
+
+---
+
+## 📉 Churn Analysis
+
+![Churn Analysis 1](Excel%20Analysis/Dashboard%20Screenshots/Churn%20Analysis%201.png)
+
+![Churn Analysis 2](Excel%20Analysis/Dashboard%20Screenshots/Churn%20Analysis%202.png)
+
+![Churn Analysis 3](Excel%20Analysis/Dashboard%20Screenshots/Churn%20Analysis%203.png)
+
+---
+
+## 🔄 Lifecycle Analysis
+
+![Lifecycle Analysis](Excel%20Analysis/Dashboard%20Screenshots/Lifecycle%20Analysis.png)
+
+---
+
+## 💰 Revenue Analysis
+
+![Revenue Analysis 1](Excel%20Analysis/Dashboard%20Screenshots/Revenue%20Analysis%201.png)
+
+![Revenue Analysis 2](Excel%20Analysis/Dashboard%20Screenshots/Revenue%20Analysis%202.png)
+
+---
+
+# 📊 Power BI Dashboard Suite
+
+An interactive 5-page Power BI solution was developed for executive reporting and business decision-making.
+
+---
+
+## 📌 Executive Overview
 
 ![Executive Overview](Dashboard%20Screenshots/Executive%20Overview.png)
 
-Executive summary of churn performance, retention health, customer risk distribution, and revenue leakage exposure.
+### Insights
+
+- Overall churn rate
+- Revenue leakage exposure
+- Contract-based churn patterns
+- Customer risk segmentation
 
 ---
 
-## 2️⃣ Retention Intelligence
+## 🎯 Retention Intelligence Dashboard
 
 ![Retention Intelligence](Dashboard%20Screenshots/Retention%20Intelligence.png)
 
-Deep dive into customer churn drivers, risk profiles, and retention-related customer segments.
+### Insights
+
+- High-risk customer analysis
+- Critical retention customer identification
+- Customer value segmentation
+- Retention prioritization
 
 ---
 
-## 3️⃣ Revenue & Customer Value
+## 💰 Revenue & Customer Value Dashboard
 
 ![Revenue Customer Value](Dashboard%20Screenshots/Revenue%20Customer%20Value.png)
 
-Analysis of revenue leakage, customer lifetime value, and customer value segmentation.
+### Insights
+
+- Revenue leakage by customer segment
+- Customer lifetime value distribution
+- High-value customer analysis
+- Revenue concentration patterns
 
 ---
 
-## 4️⃣ Strategic Retention Segments
+## 🎯 Strategic Retention Segments Dashboard
 
 ![Strategic Retention Segments](Dashboard%20Screenshots/Strategic%20Retention%20Segments.png)
 
-Customer prioritization framework for identifying retention opportunities and revenue protection strategies.
+### Insights
+
+- Growth Opportunity customers
+- Stable High Value customers
+- Critical Retention Priority customers
+- Customer prioritization framework
 
 ---
 
-## 5️⃣ Strategic Recommendations
+## 📋 Strategic Recommendations Dashboard
 
 ![Strategic Recommendations](Dashboard%20Screenshots/Strategic%20Recommendations.png)
 
-Executive recommendations supported by customer analytics and business impact assessment.
-
----
-
-## 🔍 Key Insights
-
-### Customer Retention Insights
-
-- Month-to-month customers exhibit a churn rate of **42.71%**.
-- Customers within the first **12 months** show the highest churn risk (**47.44%**).
-- High-risk customers churn at **51.38%**.
-- Longer customer tenure significantly improves retention performance.
-
-### Revenue Insights
-
-- Total revenue leakage identified: **₹139K**.
-- Month-to-month customers contribute approximately **₹121K** of revenue leakage.
-- Standard-value customers contribute approximately **₹95K** in revenue leakage.
-- Revenue loss is highly concentrated among customers with weaker retention behavior.
-
-### Customer Value Insights
-
-- High-value customers generate significantly higher lifetime value.
-- Stable High Value customers represent the healthiest long-term revenue base.
-- Critical Retention Priority customers combine high churn risk with meaningful revenue contribution.
-
-### Strategic Retention Insights
-
-- Critical Retention Priority customers require immediate intervention.
-- Growth Opportunity customers represent the largest customer segment.
-- Protecting high-value at-risk customers offers significant revenue protection opportunities.
-
----
-
-## 🎯 Strategic Recommendations
-
-| Priority | Recommendation | Expected Impact |
-|-----------|---------------|----------------|
-| 🔴 High | Convert Month-to-Month Customers to Long-Term Contracts | Reduce Churn |
-| 🔴 High | Strengthen Early Customer Retention Programs | Improve Retention |
-| 🟡 Medium | Protect High-Value At-Risk Customers | Preserve Customer Lifetime Value |
-| 🟡 Medium | Reduce Revenue Leakage Through Targeted Retention Campaigns | Improve Profitability |
-
----
-
-## 🚀 Business Impact
-
-This project demonstrates an end-to-end customer churn intelligence solution by integrating:
-
-✅ Customer Retention Analysis
-
-✅ Revenue Leakage Quantification
-
-✅ Customer Lifetime Value Assessment
-
-✅ Strategic Customer Segmentation
-
-✅ Retention Prioritization Framework
-
-✅ Executive Decision Support
-
-By implementing the proposed strategies, telecom organizations can:
+### Executive Action Plan
 
 - Reduce customer churn
-- Improve customer retention
-- Protect recurring revenue
 - Increase customer lifetime value
-- Prioritize retention investments effectively
+- Reduce revenue leakage
+- Improve customer retention
 
 ---
 
-## 👨‍💻 Author
+# 🔍 Key Business Findings
+
+### 1️⃣ Contract Type Drives Churn
+
+Month-to-month customers exhibit the highest churn rates and account for the majority of revenue leakage.
+
+---
+
+### 2️⃣ Early Tenure Customers Are High Risk
+
+Customers within their first year demonstrate significantly higher churn probability.
+
+---
+
+### 3️⃣ High-Risk Customers Require Immediate Action
+
+High-risk customer segments show the highest churn concentration and should be prioritized for retention efforts.
+
+---
+
+### 4️⃣ Revenue Leakage Is Concentrated
+
+A large portion of revenue leakage originates from specific customer segments and contract types.
+
+---
+
+### 5️⃣ Strategic Segmentation Improves Retention Focus
+
+Customer prioritization enables targeted retention investments and better ROI.
+
+---
+
+# 📌 Strategic Recommendations
+
+| Priority | Recommendation | Business Impact |
+|-----------|---------------|-----------------|
+| High | Convert Month-to-Month Customers | Reduce Churn |
+| High | Strengthen Early Customer Retention | Improve Retention |
+| Medium | Protect High-Value At-Risk Customers | Preserve Customer Lifetime Value |
+| Medium | Reduce Revenue Leakage | Improve Profitability |
+
+---
+
+# 📈 Expected Business Outcomes
+
+### ↓ Customer Churn
+
+Reduce churn through targeted retention campaigns.
+
+### ↑ Customer Lifetime Value
+
+Improve long-term customer profitability.
+
+### ↓ Revenue Leakage
+
+Protect revenue at risk from churn.
+
+### ↑ Customer Retention
+
+Improve loyalty and long-term engagement.
+
+---
+
+# 💡 Skills Demonstrated
+
+### SQL
+
+- Joins
+- CTEs
+- Aggregations
+- Window Functions
+- Business Analysis Queries
+
+### Python
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Customer Segmentation
+- Visualization
+- Statistical Interpretation
+
+### Excel
+
+- Pivot Tables
+- Pivot Charts
+- KPI Dashboards
+- Business Reporting
+
+### Power BI
+
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Interactive Dashboards
+- Business Storytelling
+- Navigation Buttons
+
+---
+
+# 👨‍💻 Author
 
 ### Sarthi Khator
 
-**Aspiring Data Analyst | SQL | Python | Excel | Power BI**
+Aspiring Data Analyst | SQL | Python | Excel | Power BI
 
-Passionate about solving business problems through analytics, visualization, and data-driven decision making.
+Focused on solving business problems through analytics, visualization, and data-driven decision making.
 
 ---
-
-⭐ If you found this project interesting, consider giving it a star!
+⭐ If you found this project useful, feel free to star the repository.
